@@ -1,5 +1,5 @@
 # Detecting-SSH-Brute-Force-with-Azure-Sentinel
 
-Confirmed working!!
+Confirmed working!!!
 
-![[Screenshot 2025-05-31 153356.png]]
+![](Screenshot%202025-05-31%20153356.png)
