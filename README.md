@@ -35,7 +35,7 @@ We will continue with the deployment of Azure Arc. The Ubuntu machine we have is
 
 ##### 3. Adding the machine to Azure Arc
 - We need to add the machine as a resource. We do this by generating a script via the Azure Portal
--![](../Screenshot%202025-06-03%20224541.png)
+-![](Screenshot%202025-06-03%20224541.png)
 ![](../Screenshot%202025-06-03%20225345.png)
 ![](../Screenshot%202025-06-03%20225406.png)![](../Screenshot%202025-06-03%20225646.png)
 
@@ -71,7 +71,7 @@ Now, let's play around with [Hydra](https://www.kali.org/tools/hydra/) on the Ka
 Success, we managed to obtain the credentials for the machine, and we can use them to log in.
 ![](../Screenshot%202025-06-04%20010039.png)
 
-In a perfect scenario, there are multiple things that can be done in order to prevent the negative outcome of getting your server accessed by an unauthorized person. For example, use stronger passwords. There is a free [ssh-audit tool](https://github.com/jtesta/ssh-audit) that will audit the security posture of your SSH, so you can have better view of the aspects that needs improving. Common ways to secure SSH is to change the port for SSH, reduce the number of connection attempts per unit of time, setup 2FA and more. For the purpose of the demo, we will disable password login and use key-based authentication. We will use two keys, Public (stored on the SSH server) and private (stored on the machine that connects to the server, in our case, the Windows Machine).  
+###### In a perfect scenario, there are multiple things that can be done in order to prevent the negative outcome of getting your server accessed by an unauthorized person. For example, use stronger passwords. There is a free [ssh-audit tool](https://github.com/jtesta/ssh-audit) that will audit the security posture of your SSH, so you can have better view of the aspects that needs improving. Common ways to secure SSH is to change the port for SSH, reduce the number of connection attempts per unit of time, setup 2FA and more. For the purpose of the demo, we will disable password login and use key-based authentication. We will use two keys, Public (stored on the SSH server) and private (stored on the machine that connects to the server, in our case, the Windows Machine).  
 =======
 
 >>>>>>> origin/main
