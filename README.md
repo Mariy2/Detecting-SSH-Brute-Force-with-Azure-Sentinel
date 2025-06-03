@@ -72,3 +72,6 @@ Success, we managed to obtain the credentials for the machine, and we can use th
 ![](../Screenshot%202025-06-04%20010039.png)
 
 In a perfect scenario, there are multiple things that can be done in order to prevent the negative outcome of getting your server accessed by an unauthorized person. For example, use stronger passwords. There is a free [ssh-audit tool](https://github.com/jtesta/ssh-audit) that will audit the security posture of your SSH, so you can have better view of the aspects that needs improving. Common ways to secure SSH is to change the port for SSH, reduce the number of connection attempts per unit of time, setup 2FA and more. For the purpose of the demo, we will disable password login and use key-based authentication. We will use two keys, Public (stored on the SSH server) and private (stored on the machine that connects to the server, in our case, the Windows Machine).  
+=======
+
+>>>>>>> origin/main
