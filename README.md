@@ -106,3 +106,4 @@ note: the same had to be done for /etc/ssh/sshd_config.d/*.conf. [Explained here
 - We can now verify that we are unable to log in with a password. 
 ![](../Screenshot%202025-06-08%20113817.png)
 
+![](Images/Screenshot%202025-06-08%20113817%201.png)
