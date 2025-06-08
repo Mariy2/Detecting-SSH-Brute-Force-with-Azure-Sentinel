@@ -90,9 +90,11 @@ We will use Putty to generate the SSH key pair. This is a free software that can
 3. We will now test the SSH connection with the key-based authentication. We do that by using putty.exe.
 
 - Input the address and port
+
 ![](Images/Screenshot%202025-06-08%20111017.png)
 
 - Set the authentication method and use the .ppk file saved earlier.
+
 ![](Images/Screenshot%202025-06-08%20111051.png)
 
 - Verify the connection is successful
