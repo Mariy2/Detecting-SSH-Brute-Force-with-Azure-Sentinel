@@ -85,25 +85,23 @@ We will use Putty to generate the SSH key pair. This is a free software that can
 1. We save the Public and Private Key with extensions .pub and .ppk respectively. 
 ![](../Screenshot%202025-06-08%20110356%203.png)
 
-2. Next we go to the Ubuntu Server and paste the public key into the authorized_keys file in the hidden .ssh directory.![](../Screenshot%202025-06-08%20110727.png)
-
+2. Next we go to the Ubuntu Server and paste the public key into the authorized_keys file in the hidden .ssh directory.
+![](Images/Screenshot%202025-06-08%20110727.png)
 3. We will now test the SSH connection with the key-based authentication. We do that by using putty.exe.
 
 - Input the address and port
-![](../Screenshot%202025-06-08%20111017%201.png)
+![](Images/Screenshot%202025-06-08%20111017.png)
 
 - Set the authentication method and use the .ppk file saved earlier.
-![](../Screenshot%202025-06-08%20111051.png)
+![](Images/Screenshot%202025-06-08%20111051.png)
 
 - Verify the connection is successful
-![](../Screenshot%202025-06-08%20111155.png)
+![](Images/Screenshot%202025-06-08%20111155.png)
 
 4. The final thing we need to do is to disable password authentication. This is done from the sshd_config file located in /etx/ssh/. We must set  #PasswordAuthentication to no. 
 note: the same had to be done for /etc/ssh/sshd_config.d/*.conf. [Explained here](https://unix.stackexchange.com/questions/727492/passwordauthentication-no-but-i-can-still-login-by-password)
-
-![](../Screenshot%202025-06-08%20111815.png)
+![](Images/Screenshot%202025-06-08%20111815.png)
 
 - We can now verify that we are unable to log in with a password. 
-![](../Screenshot%202025-06-08%20113817.png)
 
 ![](Images/Screenshot%202025-06-08%20113817%201.png)
